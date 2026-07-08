@@ -1,0 +1,114 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABECERA */
+
+.cabecera {
+  background: linear-gradient(to right, #740001, #d3a625);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.cabecera h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.cabecera p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* MENSAJES */
+
+.mensaje {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+}
+
+/* CONTENEDOR */
+
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* TARJETAS */
+
+.card {
+  width: 260px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* IMAGEN */
+
+.imagen {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.sin-imagen {
+  width: 100%;
+  height: 320px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ddd;
+  color: gray;
+}
+
+/* INFORMACIÓN */
+
+.info {
+  padding: 15px;
+}
+
+.info h2 {
+  margin-top: 0;
+  color: #740001;
+  font-size: 22px;
+}
+
+.info p {
+  margin: 8px 0;
+}
+
+/* ESTADO */
+
+.vivo {
+  color: green;
+  font-weight: bold;
+}
+
+.fallecido {
+  color: red;
+  font-weight: bold;
+}
